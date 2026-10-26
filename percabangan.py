@@ -17,11 +17,11 @@ Barang = input("Masukkan Nama Barang : ")
 Harga = int(input("Masukkan Harga Barang : "))
 
 if Barang == "Kulkas" : 
-    print (Barang)
-    print (Harga - (Harga * 0.10))
+    print (" Nama Barang : ", Barang)
+    print (" Total Harga : ", Harga - (Harga * 0.10))
 elif Barang == "TV" :
-    print (Barang)
-    print ( Harga - (0.05 * Harga))
+    print (" Nama Barang : ", Barang)
+    print (" Total Harga : ", Harga - (0.05 * Harga))
 else:
-    print (Barang)
-    print (Harga)
+    print (" Nama Barang : ", Barang)
+    print (" Total Harga : ", Harga)
